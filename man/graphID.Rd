@@ -61,12 +61,15 @@ A list or printed matrix indicating the identifiability status of the
   information is printed.
 }
 \description{
+NOTE: \code{graphID} has been deprecated, use \code{\link{semID}} instead.
+
 This function checks global and generic identifiability of linear
 structural equation models. For generic identifiability the function
 checks a sufficient criterion as well as a necessary criterion but this
 check may be inconclusive.
 }
 \examples{
+\dontrun{
 L = t(matrix(
   c(0, 1, 0, 0, 0,
     0, 0, 1, 0, 0,
@@ -82,8 +85,10 @@ O = t(matrix(
 O=O+t(O)
 graphID(L,O)
 
+
 ## Examples from Foygel, Draisma & Drton (2012)
 demo(SEMID)
+}
 }
 \references{
 Drton, M., Foygel, R., and Sullivant, S.  (2011) Global
@@ -94,4 +99,3 @@ Foygel, R., Draisma, J., and Drton, M.  (2012) Half-trek criterion for
 generic identifiability of linear structural equation models.
 \emph{Ann. Statist.} 40(3): 1682-1713.
 }
-
