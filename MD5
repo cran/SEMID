@@ -1,10 +1,10 @@
-4893c0be869c8bdd2318662c94a014da *DESCRIPTION
+c701da2cdf64cde3a8b9c027c5f249b1 *DESCRIPTION
 3b33bb186ee70f3c57e7afba3880c6b8 *NAMESPACE
 a9bddc4a29c3cdef40ce22454b455b68 *R/FlowGraph.R
 06d806b42d0b3c043f445231e1ec729b *R/MixedGraph.R
 dbffaf303bfc7510cf1a79aa57b1deff *R/SEMID.R
 8e3cb2f71aa8657baf56ae237c05731e *R/ancestralID.R
-c448d1d618dd1adbd6766adb8642da5d *R/edgewiseID.R
+b79ab4c2ac31201760898b775d6d1501 *R/edgewiseID.R
 bf9678abbbf5eceb8feffb96f717fae1 *R/graphID.R
 bd7f4b1cce3c16847e8f7b994dbf1fc2 *R/htcID.R
 1c22ab2ecbd75bd1dc7cff3b0da44698 *R/plotting.R
