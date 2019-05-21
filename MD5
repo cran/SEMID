@@ -1,7 +1,7 @@
-c701da2cdf64cde3a8b9c027c5f249b1 *DESCRIPTION
+6026996cf31d31f38e1fdb428134baea *DESCRIPTION
 3b33bb186ee70f3c57e7afba3880c6b8 *NAMESPACE
 a9bddc4a29c3cdef40ce22454b455b68 *R/FlowGraph.R
-06d806b42d0b3c043f445231e1ec729b *R/MixedGraph.R
+19fc2208802d619ccc83bd002f97f122 *R/MixedGraph.R
 dbffaf303bfc7510cf1a79aa57b1deff *R/SEMID.R
 8e3cb2f71aa8657baf56ae237c05731e *R/ancestralID.R
 b79ab4c2ac31201760898b775d6d1501 *R/edgewiseID.R
@@ -9,8 +9,8 @@ bf9678abbbf5eceb8feffb96f717fae1 *R/graphID.R
 bd7f4b1cce3c16847e8f7b994dbf1fc2 *R/htcID.R
 1c22ab2ecbd75bd1dc7cff3b0da44698 *R/plotting.R
 675e234748fa73547ef755c7fecbf6da *R/trekSepId.R
-e74ddaae2c2bb84ad8c1e77543136c9d *R/utils.R
-e40b4c773a9c6134b62eca79293b7fd3 *README.md
+48fb428d9119e448d1bc252b5cf0f3e9 *R/utils.R
+6cab9fbe7d254bf2626fd80dc640109d *README.md
 a5818a963e27e7bf3078bfc847e18dca *demo/00Index
 8810e6013a566e4cd0d6b91b0814338d *demo/SEMID.R
 95be7e0baab3a02a901835a62c0aff14 *man/FlowGraph.Rd
@@ -21,7 +21,7 @@ f19947bb14648a287841c754d93dc314 *man/MixedGraphFixedOrder.Rd
 ce97540668cd8b54af3a8443a4e62d10 *man/SEMID-package.Rd
 39b6e991e51aa8d8f027d93a9e6ab506 *man/ancestors.Rd
 b2c801ecbf3e5391db9475c68a098055 *man/ancestralID.Rd
-241ec7699fa6e974f1f787a9c861e826 *man/ancestralIdentifyStep.Rd
+941fb65dae36deb62d53e3877b214fda *man/ancestralIdentifyStep.Rd
 22733ff5916083c06798fe46a6698163 *man/createAncestralIdentifier.Rd
 7c06e9320a9d73e1a215a153fdfb37d0 *man/createEdgewiseIdentifier.Rd
 0fc99bb9ef26ed1678bd5df72c208be6 *man/createHalfTrekFlowGraph.Rd
@@ -34,7 +34,7 @@ a6f9d74473f3467dfcc3d39a816872fc *man/createTrGraph.Rd
 c1656e465bd103ba1d84fcb7f2a7ffa2 *man/createTrekSeparationIdentifier.Rd
 9efbca9fa732a2e415d247526f8a399c *man/descendants.Rd
 90fd1b52923e493ee8cc3a0b37ff690a *man/edgewiseID.Rd
-989c84e6df5f2c25e155673d8a952467 *man/edgewiseIdentifyStep.Rd
+b3b6ba14c51abf92299dc111b8450c6e *man/edgewiseIdentifyStep.Rd
 92ea1279ff0fdf7e08da842dd2fe69e7 *man/edgewiseTSID.Rd
 c59d3bd945870c19790ceecfe143f8ef *man/flowBetween.Rd
 c05ddddbbe6bbb6134975665ed0c0738 *man/generalGenericID.Rd
@@ -46,7 +46,7 @@ f0ba475c2bae3fc0f6ec29a6411013fe *man/getHalfTrekSystem.Rd
 fb2871a9caa5ace20bbb1095737465d2 *man/getParents.Rd
 306f0fd54c693957900a63f37282e8fb *man/getSiblings.Rd
 d35370043e7e58b0aa1c1012047ef633 *man/getTrekSystem.Rd
-ed72cba19cf4ad5678b6be515fb49119 *man/graphID.Rd
+5372f5964d422515f355564914b07268 *man/graphID.Rd
 a0e7d3e6ffdcc874022ff8c197be9d6e *man/graphID.ancestralID.Rd
 9d444abf04584b5890c3aad0d7549732 *man/graphID.decompose.Rd
 7d68b70c42b7894b567ca053463b630a *man/graphID.genericID.Rd
@@ -93,5 +93,5 @@ b9db29bd91de4ace2f3a7e95276af072 *tests/testthat/test_ancestral.R
 2b55dc456fb58e898ca4e61d512add54 *tests/testthat/test_graphID.globalID.R
 84200c2e1368e919d675bd7b4a004cae *tests/testthat/test_graphID.htcID.R
 b3ac490cae483f8424e99b578585c716 *tests/testthat/test_graphID.nonID.R
-86fe91180be7cee5fab54e251871c45c *tests/testthat/test_tianDecompose.R
+8fe6d9bc39fbe96f94f2fc0b8d4fb37e *tests/testthat/test_tianDecompose.R
 8cd79a7f4403ad4dc2d620720cdbd5b3 *tests/testthat/test_trekSepID.R
